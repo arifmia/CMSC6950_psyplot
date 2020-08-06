@@ -1,7 +1,9 @@
-# CMSC6950 - psyplot interactive visualization framework
+# CMSC6950 - Pymagicc: A Python wrapper for the simple climate model MAGICC
 
 # S M Arifuzzaman
 
-The aim of this project is to utilize the psyplot interactive visualization framework that allows a fast, attractive, flexible, easily applicable, easily reproducible and especially an interactive visualization of data.
+Pymagicc is a Python wrapper around the reduced complexity climate model MAGICC6. It wraps the CC-BY-NC-SA licensed MAGICC6 binary. Pymagicc itself is AGPL licensed.
 
-psyplot is an open source python project that mainly combines the plotting utilities of matplotlib and the data management of the xarray package.
+MAGICC (Model for the Assessment of Greenhouse Gas Induced Climate Change) is widely used in the assessment of future emissions pathways in climate policy analyses, e.g. in the Fifth Assessment Report of the Intergovernmental Panel on Climate Change or to model the physical aspects of climate change in Integrated Assessment Models (IAMs).
+
+See www.magicc.org and Meinshausen et al. 2011 for further information.
