@@ -1,0 +1,13 @@
+FIGURES=Plot1_GlobalMeanTemperatureProjection.png Plot2_RCP26.png
+
+report.pdf: report.tex $(FIGURES)
+	latexmk -pdf
+	
+Plot1_GlobalMeanTemperatureProjection.png: Plot1_GlobalMeanTemperatureProjection.py
+	python Plot1_GlobalMeanTemperatureProjection.py
+	
+Plot2_RCP26.png: Plot2_RCP26.py
+	python Plot2_RCP26.py
+
+clean:
+	rm *.png
