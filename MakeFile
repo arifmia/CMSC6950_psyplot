@@ -10,4 +10,4 @@ Plot2_RCP26.png: Plot2_RCP26.py
 	python Plot2_RCP26.py
 
 clean:
-	rm *.png
+	latexmk -c
